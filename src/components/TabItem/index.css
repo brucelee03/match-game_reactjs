@@ -1,0 +1,20 @@
+.tab-btn {
+  background-color: transparent;
+  border-style: solid;
+  border-width: 0;
+  font-size: 27px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 12px;
+}
+.active-tab-btn {
+  color: #fec653;
+  border-width: 0 0 4px 0;
+  border-color: #fec653;
+}
+@media screen and (max-width: 577px) {
+  .tab-btn {
+    font-size: 15px;
+    padding: 8px;
+  }
+}

@@ -1,0 +1,12 @@
+.thumbnail-image {
+  width: 134px;
+}
+@media screen and (max-width: 577px) {
+  .thumbnail-image {
+    width: 55px;
+  }
+}
+.button {
+  background-color: transparent;
+  border-width: 0;
+}

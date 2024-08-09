@@ -1,0 +1,58 @@
+.nav-item {
+  align-self: center;
+}
+.score-section {
+  display: flex;
+  margin-left: auto;
+  margin-right: 33px;
+}
+.logo {
+  width: 170px;
+  margin-left: 33px;
+}
+.value {
+  color: #ffffff;
+  font-size: 16px;
+}
+.score-card {
+  align-self: center;
+}
+.span-value {
+  font-size: 25px;
+  color: #fec653;
+  font-weight: bold;
+}
+.timing-card {
+  display: flex;
+  margin-left: 30px;
+}
+.timer-icon {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 577px) {
+  .score-section {
+    margin-right: 12px;
+  }
+  .logo {
+    width: 100px;
+    margin-left: 12px;
+  }
+  .value {
+    font-size: 14px;
+  }
+  .span-value {
+    font-size: 17px;
+  }
+  .timing-card {
+    margin-left: 10px;
+  }
+  .timer-icon {
+    width: 17px;
+    height: 17px;
+    margin-right: 8px;
+  }
+}
